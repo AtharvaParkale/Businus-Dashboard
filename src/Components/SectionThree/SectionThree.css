@@ -1,0 +1,160 @@
+.sectionThree_container {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.sectionThree_header {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 13vh;
+    margin-top: 17vh;
+}
+
+.sectionThree_header h2 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #000000c7
+}
+
+.sectionThree_header p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    margin: 0;
+    font-weight: 600;
+    color: #0000009e;
+}
+
+.sectionThree_email {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-bottom: 17vh;
+}
+
+.sectionThree_email input {
+    width: 500px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 25px;
+    padding-left: 1.5vw;
+    border: 3px solid rgba(0, 0, 0, .29);
+    /* margin-right: 1vw; */
+}
+
+.sectionThree_email button {
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 7px;
+    width: 127px;
+    height: 55px;
+    background-color: #02C39A;
+    color: white;
+    /* margin-left: 1vw; */
+}
+
+.sectionThree_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    color: #000000bd;
+    width: 85%;
+    flex-wrap: wrap;
+}
+
+.sectionThree_services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid rgb(203, 52, 52); */
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.sectionThree_services p {
+    /* margin: 0; */
+    color: #0000009e;
+}
+
+#tasks_icon {
+    color: #f3d036;
+}
+#communication_icon {
+    color: #67ff8d !important;
+}
+#file_icon {
+    color: #6ab7ff !important;
+}
+#tag_icon {
+    color: #fd7171 !important;
+}
+#listalt_icon {
+    color: #f3d036 !important;
+}
+#list_icon {
+    color: #fd7171 !important;
+}
+#calendar_icon {
+    color: #67ff8d !important;
+}
+
+
+#clock_icon {
+    color: #6ab7ff !important;
+}
+
+@media(max-width:500px){
+    .sectionThree_header{
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+    }
+    .sectionThree_header h2{
+        font-size: 24px;
+    }
+    .sectionThree_header p{
+        text-align: center;
+        font-size: 17px;
+    }
+    .sectionThree_email{
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 3vh;
+       
+    }
+
+    .sectionThree_email input{
+        width: 309px;
+        height: 35px;
+        margin-bottom: 3vh;
+    }
+    .sectionThree_email button{
+        width: 124px;
+        height: 38px;
+        font-size: 15px;
+    }
+    .sectionThree_icons{
+        margin-top: 4vh;
+        height: 30vh;
+        width: 70%;
+    }
+    .sectionThree_services {
+        font-size: 13px;
+    }
+    .sectionThree_services svg{
+        width: 30px;
+        height: 30px;
+    }
+    
+}
